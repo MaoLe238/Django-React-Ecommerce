@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-q0i%r@rl_+^-=x2ejksb*yz7kw#1@2+4ty6=gp(sl+58)8qpt_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'thienhashop-45340294eca6.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'thienhashop-45340294eca6.herokuapp.com', 'thienhashop.io.vn', 'www.thienhashop.io.vn']
 
 
 # Application definition
@@ -208,4 +208,6 @@ AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
 AWS_STORAGE_BUCKET_NAME = 'thienhashop-bucket'
 
 if os.getcwd() == '/app':
+    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+    SECURE_SSL_REDIRECT = True    
     DEBUG = False
