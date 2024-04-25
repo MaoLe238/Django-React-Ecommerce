@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.bfc940d1.css",
-    "main.js": "/static/js/main.05b63fb3.js",
+    "main.js": "/static/js/main.6a46b873.js",
     "static/js/206.8ac086ca.chunk.js": "/static/js/206.8ac086ca.chunk.js",
     "static/media/redux.cjs": "/static/media/redux.7edfc461ab353f1712ab.cjs",
     "index.html": "/index.html"
   },
   "entrypoints": [
     "static/css/main.bfc940d1.css",
-    "static/js/main.05b63fb3.js"
+    "static/js/main.6a46b873.js"
   ]
 }
